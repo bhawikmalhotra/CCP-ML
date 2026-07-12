@@ -60,4 +60,11 @@ target = "Churn"
 creating models 
 
 - Logistic Regression 
-    
+    Accuracy : 0.808374733853797
+    Precision: 0.6666666666666666
+    Recall   : 0.5522788203753352
+    F1 Score : 0.6041055718475073
+    ROC AUC  : 0.7264289854772429
+
+    Train Accuracy: 0.7932197373091942
+    Test Accuracy : 0.808374733853797
