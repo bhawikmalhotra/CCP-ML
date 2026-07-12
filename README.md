@@ -131,6 +131,12 @@ Once the server is running, you can access the automatically generated interacti
 
 ---
 
+### Test Live Preview
+Test the live Model Hosted :
+- **ReDoc**: [https://ccp-ml.onrender.com/redoc](https://ccp-ml.onrender.com/redoc)
+
+---
+
 ## 🎨 UI Form Representation (Mockup Guidance)
 
 For building a frontend interface to interact with this API, use the following layout guidance:

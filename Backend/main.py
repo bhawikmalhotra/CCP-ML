@@ -7,7 +7,7 @@ import joblib
 app = FastAPI(title="Customer Churn Prediction API")
 
 # Load trained pipeline
-pipeline = joblib.load("models/churn_pipeline.joblib")
+pipeline = joblib.load("Models/churn_pipeline.joblib")
 
 
 # Input Schema
