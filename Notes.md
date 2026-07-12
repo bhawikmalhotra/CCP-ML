@@ -80,3 +80,16 @@ creating models
 
     Train Accuracy: 0.9317246273953159
     Test Accuracy : 0.7317246273953159
+
+## Ensebble Learning
+
+- Random Forest                               |  significantly Improved Our Model ✅  , Fixed Overfitting
+
+    Accuracy : 0.808374733853797
+    Precision: 0.6666666666666666
+    Recall   : 0.5522788203753352
+    F1 Score : 0.6041055718475073
+    ROC AUC  : 0.7264289854772429
+
+    Train Accuracy: 0.8454029108981186
+    Test Accuracy : 0.8062455642299503
