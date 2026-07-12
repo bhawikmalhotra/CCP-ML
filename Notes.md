@@ -135,3 +135,39 @@ lets Choose model
 
 Tuned Model didnt outperform the Default XGBoost Model 
 so we will simple use our Default XgBoost model
+
+
+
+## Final Pipeline Flow
+
+```text
+Load Dataset
+      ↓
+Select Features
+      ↓
+Train-Test Split
+      ↓
+ColumnTransformer
+      ├── OneHotEncoder
+      └── StandardScaler
+      ↓
+Pipeline
+      ├── Preprocessor
+      └── XGBoost
+      ↓
+Train Model
+      ↓
+Export Model (joblib)
+      ↓
+FastAPI
+      ↓
+Frontend
+```
+
+---
+
+## Final Model Export
+
+```python
+joblib.dump(pipeline, "models/churn_pipeline.joblib")
+```
