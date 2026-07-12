@@ -93,3 +93,24 @@ creating models
 
     Train Accuracy: 0.8454029108981186
     Test Accuracy : 0.8062455642299503
+
+- XG Boost                                    |General fit  ✅
+
+    Accuracy : 0.808374733853797
+    Precision: 0.6666666666666666
+    Recall   : 0.5522788203753352
+    F1 Score : 0.6041055718475073
+    ROC AUC  : 0.7264289854772429 
+
+    Train Accuracy: 0.8262335818246361
+    Test Accuracy : 0.808374733853797
+
+
+   
+lets Choose model
+
+    Logistic Regression - 80.84
+    XG Boost - 80.4
+
+
+    we will use XG Boost 
