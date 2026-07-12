@@ -133,7 +133,7 @@ Once the server is running, you can access the automatically generated interacti
 
 ### Test Live Preview
 Test the live Model Hosted :
-- **ReDoc**: [https://ccp-ml.onrender.com/redoc](https://ccp-ml.onrender.com/redoc)
+- **ReDoc**: [https://ccp-ml.onrender.com/doc](https://ccp-ml.onrender.com/doc)
 
 ---
 
