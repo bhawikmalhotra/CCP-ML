@@ -58,3 +58,6 @@ target = "Churn"
 
 
 creating models 
+
+- Logistic Regression 
+    
