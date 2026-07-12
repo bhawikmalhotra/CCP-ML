@@ -59,7 +59,8 @@ target = "Churn"
 
 creating models 
 
-- Logistic Regression 
+- Logistic Regression                       | Generally Good 80%  ✅  
+
     Accuracy : 0.808374733853797
     Precision: 0.6666666666666666
     Recall   : 0.5522788203753352
@@ -68,3 +69,14 @@ creating models
 
     Train Accuracy: 0.7932197373091942
     Test Accuracy : 0.808374733853797
+
+
+- Decision tree Classifier                  |    Overfitting ❌ 
+    Accuracy : 0.7317246273953159
+    Precision: 0.4931506849315068
+    Recall   : 0.48257372654155495
+    F1 Score : 0.4878048780487805
+    ROC AUC  : 0.6520011489850631
+
+    Train Accuracy: 0.9317246273953159
+    Test Accuracy : 0.7317246273953159
