@@ -114,3 +114,24 @@ lets Choose model
 
 
     we will use XG Boost 
+
+
+# Model Tuning
+
+- Cross Validation                                          | Model Working fine on all Cross validation
+
+        [0.80212955 0.80212955 0.78881988 0.78349601 0.78596803]
+        Average CV Accuracy: 0.7925086012472794    
+
+
+- Grid search CV
+
+        Best Parameters: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+        Best CV Score : 0.7996086688594659
+
+        Train Accuracy: 0.8109691160809371
+        Test Accuracy : 0.8055358410220014
+
+
+Tuned Model didnt outperform the Default XGBoost Model 
+so we will simple use our Default XgBoost model
