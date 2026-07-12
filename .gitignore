@@ -16,8 +16,7 @@ __pycache__/
 .env
 
 # Model files
-*.pkl
-*.joblib
+
 
 # OS files
 .DS_Store
